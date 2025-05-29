@@ -7,3 +7,72 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+/* shared styles starts here  */
+
+.display_flex {
+  display: flex;
+}
+
+.text_black {
+  color: #131313;
+}
+.text_grey {
+  color: #424242;
+  /* dark02 */
+}
+.text_light_grey {
+  color: #727272;
+}
+
+.dark3 {
+}
+
+.bg_light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* shared ends starts here  */
+
+/* header styles starts here */
+
+/* header styles ends here */
+
+/* navbar styles starts here */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav_items {
+  list-style: none;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.nav_items > a {
+  text-decoration: none;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.brand {
+  color: black;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+/* navbar styles ends here */
+
+.banner_title {
+  /* color: #111;  */
+}
